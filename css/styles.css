@@ -1,20 +1,30 @@
 /* Google Fonts */
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
 
 /* Root */
+:root {
+    --cc-red-: hsl(0, 78%, 62%);
+    --cc-cyan-: hsl(180, 62%, 55%);
+    --cc-orange-: hsl(34, 97%, 64%);
+    --cc-blue-: hsl(212, 86%, 64%);
+    --cc-v-d-b-: hsl(234, 12%, 34%);
+    --cc-g-b-: hsl(229, 6%, 66%);
+    --cc-v-l-g-: hsl(0, 0%, 98%);
+    
+    --ff-poppins-: font-family: 'Poppins', sans-serif;
+}
+/* Grid CSS Mobile First */
 
 * {
     margin: 0;
     padding: 0;
 }
 
-    .container {
-        display: grid; 
-        grid-auto-columns: 1fr; 
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; 
-        gap: 0em 0px; 
-        justify-items: center; 
-        align-items: center; 
+.container {
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; 
+    gap: 0em 0px; 
 }
 
 .main-title {
@@ -31,6 +41,7 @@
 
 .team-card {
     grid-area: 4 / 1 / 5 / 2;
+    
 }
 
 .karma-card {
