@@ -62,7 +62,7 @@ Change tablet layout in portrait mode.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [Sedar Yildirim](https://github.com/sedaryildirim)
 - Frontend Mentor - [@sedaryildirim](https://www.frontendmentor.io/profile/sedaryildirim)
 
 ## Acknowledgments
